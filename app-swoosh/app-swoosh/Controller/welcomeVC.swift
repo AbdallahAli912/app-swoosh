@@ -8,9 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    @IBOutlet weak var swoosh: UIImageView!
-    @IBOutlet weak var bgImg: UIImageView!
+class welcomeVC: UIViewController {
+
     
     
     override func viewDidLoad() {
@@ -19,6 +18,11 @@ class ViewController: UIViewController {
        
     }
 
-
+    @IBAction func unwinedToSkillsVC(unwinedSegue : UIStoryboardSegue)
+    {
+        
+    }
+    
+    
 }
 
